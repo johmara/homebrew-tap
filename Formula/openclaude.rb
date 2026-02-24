@@ -7,22 +7,22 @@ class Openclaude < Formula
   on_macos do
     on_arm do
       url "https://github.com/johmara/openclaude/releases/download/v0.1.0/openclaude-darwin-arm64.tar.gz"
-      sha256 "110432f087f0e2b244337ca5860242f15adb20871b28241db1c1009aa29a743f"
+      sha256 "8d30dcd9d16a104142b2c793c6a6186b9a71fb5b77927177f7a1cf96b406f618"
     end
     on_intel do
       url "https://github.com/johmara/openclaude/releases/download/v0.1.0/openclaude-darwin-amd64.tar.gz"
-      sha256 "001325cc661eee6e23f0b5b13fb4a65948316c5130c5261ed57251add64eea30"
+      sha256 "07a0c97f891fd470101bb7376428a0fac6fba18b3765a6dba64b68b95e6fbf3b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/johmara/openclaude/releases/download/v0.1.0/openclaude-linux-arm64.tar.gz"
-      sha256 "8150667a040e13facfa4e2de250a4108f5c761c401c4eb20799914ba55f5548a"
+      sha256 "7fbae2ad553b8da9dde70904b125f9f913baef033de1bb4071d5eabfde0786ce"
     end
     on_intel do
       url "https://github.com/johmara/openclaude/releases/download/v0.1.0/openclaude-linux-amd64.tar.gz"
-      sha256 "70d94cdab7dfaf90b11d268db38c191f9d451fde63722674db304cfe3163f940"
+      sha256 "a869f685348900a8dd8c345fa3df22be88909239cea273fcbb05f4d67b5215f5"
     end
   end
 
