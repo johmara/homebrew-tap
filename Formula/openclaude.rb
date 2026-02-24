@@ -1,28 +1,28 @@
 class Openclaude < Formula
   desc "A full-featured TUI for Claude Code"
   homepage "https://github.com/johmara/openclaude"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/johmara/openclaude/releases/download/v0.1.3/openclaude-darwin-arm64.tar.gz"
-      sha256 "4debdb399dac5bea9828bbbf7d377ba69df1560a70af436b24b7db75ee676526"
+      url "https://github.com/johmara/openclaude/releases/download/v0.1.4/openclaude-darwin-arm64.tar.gz"
+      sha256 "5b60c217959b71b2d9b4c01e293d3b19ac0239dbbfafe84a47f3144bcda4e16f"
     end
     on_intel do
-      url "https://github.com/johmara/openclaude/releases/download/v0.1.3/openclaude-darwin-amd64.tar.gz"
-      sha256 "777477151d8da07fd903809dcee6dd1b8690c426a1689ae334f685768ddc9f40"
+      url "https://github.com/johmara/openclaude/releases/download/v0.1.4/openclaude-darwin-amd64.tar.gz"
+      sha256 "59f656c211d27859b4ecd87d8f863e19d812d4be3bb78763d885c47e42b91cca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/johmara/openclaude/releases/download/v0.1.3/openclaude-linux-arm64.tar.gz"
-      sha256 "1474fd5129b65e411d8cf9acaeba28c75a644e86669f6538a85f084d2e01bcb6"
+      url "https://github.com/johmara/openclaude/releases/download/v0.1.4/openclaude-linux-arm64.tar.gz"
+      sha256 "7fb242162a8976e02f4c4b3d3138187580baf386cff93569a2044ddf7f7335d4"
     end
     on_intel do
-      url "https://github.com/johmara/openclaude/releases/download/v0.1.3/openclaude-linux-amd64.tar.gz"
-      sha256 "a1ded22fae116f1aaa8ce351a6fb037d6b9ceeb2dafb40b5eb9ebe8062008b6f"
+      url "https://github.com/johmara/openclaude/releases/download/v0.1.4/openclaude-linux-amd64.tar.gz"
+      sha256 "7b19ee9ea29c9cd4ed045db0a8d55d3e2b48c4be36c27663e421cc5947b26a41"
     end
   end
 
